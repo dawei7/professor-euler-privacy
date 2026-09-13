@@ -1,6 +1,6 @@
 # Privacy policy - Professor Euler
 
-Last updated: 12 September 2026
+Last updated: 13 September 2026
 
 ## Who provides the app
 Professor Euler is a free, non-commercial mathematics study app for adults aged 18 and older, created by David Schmid. Contact: ai.professor.euler@gmail.com. This policy describes the Android app; Google Play and services you choose to use have their own policies.
@@ -26,6 +26,8 @@ The saved API key is encrypted using Android Keystore, tied to your device, and 
 
 ## Backups and sharing
 You can save a ZIP backup to Downloads and share it using an app you choose. It can contain profile names and all saved study work and is not password-encrypted. Anyone with access to it can read its contents. Restoring creates separate local profiles. Exported backup files remain until you delete them, including after uninstalling the app. Your Android settings and device manufacturer may also enable system cloud backup or device transfer of eligible local data; API keys and replaceable textbook caches are excluded by the app's backup configuration.
+
+You can also export a book in three separate PDFs: the unchanged original textbook, the textbook with annotations from the selected local profile, or that profile's latest graded exercise submissions with feedback and review notes. Export runs on the device without sending this work to the developer or an AI service. PDFs are not password-encrypted. They are saved to Downloads on Android 10 and newer, or to app-private storage on Android 8/9; use Share to keep a copy elsewhere. Anyone you share the PDF with can read the included work. PDF exports cannot be restored into the app and app-private export copies are excluded from Android system backup and device transfer. Delete exported and shared copies separately when no longer wanted.
 
 ## Feedback and external links
 Feedback buttons open your email app. A message is sent only if you choose to send it. David receives your email address and whatever you include, and uses it to respond and investigate the reported issue. Do not include API keys or private student information. LinkedIn, GitHub, Google and other external destinations apply their own privacy policies. Contact David to request deletion of feedback correspondence, subject to any applicable retention obligations.

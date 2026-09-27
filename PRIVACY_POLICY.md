@@ -1,6 +1,6 @@
 # Privacy policy - Professor Euler
 
-Last updated: 26 September 2026
+Last updated: 27 September 2026
 
 ## Who provides the app
 Professor Euler is a free, non-commercial mathematics study app for adults aged 18 and older, created by David Schmid. Contact: ai.professor.euler@gmail.com. This policy describes the Android app; Google Play and services you choose to use have their own policies.

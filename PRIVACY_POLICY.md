@@ -3,7 +3,7 @@
 Last updated: 18 October 2026
 
 ## Who provides the app
-Professor Euler is a free, non-commercial mathematics study app for adults aged 18 and older, created by David Schmid. Contact: ai.professor.euler@gmail.com. This policy describes the Android app; Google Play and services you choose to use have their own policies.
+Professor Euler is a free, non-commercial mathematics study app for adults aged 18 and older, created by David Schmid. Contact: ai.professor.euler@gmail.com. This policy describes the Android app and the Windows app. Google Play and services you choose to use have their own policies.
 
 ## Work stored on your device
 The app stores local profile names, reading progress, section notes, the exercise, question and bookmark frames you draw on textbook pages with their sheets and conversations, saved study Reports, exercise drafts, handwriting, drawings, PDF annotations, submitted answers, AI feedback, chats, settings and a daily AI request count. Profiles are local and do not create an online account. The developer does not receive this work automatically. Avoid putting personal or sensitive information in work you intend to send to an AI service.
@@ -57,8 +57,11 @@ The app includes no advertising SDK, analytics SDK, subscription service or auto
 ## Your controls and deletion
 Use the app's profile and data-management controls to remove local work, or clear Android app storage/uninstall to remove the app's private data. These actions do not delete ZIPs you saved to Downloads, shared copies, email correspondence, system backups, submitted AI reports, data held by your AI provider, or study files already stored in your Google Drive hidden app folder. Delete those separately through their respective services. Keep a separate backup of important work; no device or software can guarantee permanent storage.
 
+## Windows
+On Windows, study files are kept in your user profile under Professor Euler. The app does not require an account. When the Windows app starts, it requests a small public version file from https://euler.dawei7.com/desktop/latest.json to see whether a newer installer has been published. That request sends no name, study work, or Google account. The site does not keep an account of the check. If you press Update, the app downloads the installer from this same site and opens it only after the file matches the published fingerprint. Nothing is downloaded until you ask.
+
 ## Permissions
-Internet access supports optional direct requests to the selected AI provider, optional Google sign-in and profile sync, and reports you choose to submit to the developer. Network-state access supports connection handling. Backup files use Android's scoped storage or temporary content-URI access; the app does not request broad access to all your files, location, contacts, microphone or camera.
+Internet access supports optional direct requests to the selected AI provider, optional Google sign-in and profile sync, the Windows version check described above, and reports you choose to submit to the developer. Network-state access supports connection handling. Backup files use Android's scoped storage or temporary content-URI access; the app does not request broad access to all your files, location, contacts, microphone or camera.
 
 ## Changes and questions
 This policy will be updated if the app's data handling changes. For privacy questions, corrections or deletion of correspondence, email ai.professor.euler@gmail.com.

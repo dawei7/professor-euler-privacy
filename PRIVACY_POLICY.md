@@ -1,6 +1,6 @@
 # Privacy policy - Professor Euler
 
-Last updated: 25 October 2026
+Last updated: 26 October 2026
 
 ## Who provides the app
 Professor Euler is a free, non-commercial mathematics study app for adults aged 18 and older, created by David Schmid. Contact: ai.professor.euler@gmail.com. This policy describes the Android app and the Windows app. Google Play and services you choose to use have their own policies.
@@ -13,9 +13,10 @@ The Statistics tab works out study days, streaks, grades and progress through ea
 ## Music
 The Music section plays songs you import yourself. They are copied into the app's private storage on this device, with the
 playlists and the last playing position, and are kept for the whole device rather than a profile. They are never uploaded,
-never sent to the developer, and are not part of ZIP backups or Google Drive sync. While music plays, Android shows the song's
-title and artist in the media notification and on the lock screen, and the app holds a media-playback foreground service so the
-music keeps playing when the screen is off or another app is open. The original files you picked are not changed.
+never sent to the developer, and are not part of ZIP backups or Google Drive sync. Music plays while the app is on screen. Only
+if you turn on Keep music playing in the background (Settings > Reading & focus) does the app hold a media-playback foreground
+service while music plays, so it keeps playing when the screen is off or another app is open; Android then shows the song's
+title and artist in the media notification and on the lock screen. The original files you picked are not changed.
 
 ## Optional AI features: DeepSeek, OpenRouter and DeepInfra
 Reading, writing, marking and saving work do not need an AI connection. You choose DeepSeek, OpenRouter or DeepInfra in Settings and supply your own API key for that provider. Nothing is sent until you press Check or send a question to Ask Euler. When you press Check, the framed exercise (as an image of that region and its page), any context region you marked for it, its linked solution if one is available, and your work sheet are sent directly to the selected provider over HTTPS with your key. When you ask Euler, your question, the earlier messages of that conversation, the page or framed region (with its context, if you marked one) and, if you attach it, your work sheet are sent; neighbouring pages are added only when the question needs them. Pressing Apply in Settings makes an authenticated connection check to the selected provider before saving the key and choice; this check sends no study work. The provider receives connection metadata such as your IP address. The developer does not operate an intermediary server.
@@ -62,7 +63,7 @@ Remove books, notes and recordings in My books and songs in Music, or delete a p
 On Windows, study files and saved API keys are kept in your user profile under Professor Euler. The app does not require an account. When the Windows app starts, it requests a small public version file from https://euler.dawei7.com/desktop/latest.json to see whether a newer installer has been published. That request sends no name, study work, or Google account. The site does not keep an account of the check. If you press Update, the app downloads the installer from this same site and opens it only after the file matches the published fingerprint. Nothing is downloaded until you ask. AI features, book downloads and Drive sync work on Windows as described above.
 
 ## Permissions
-Internet access supports direct requests to the selected AI provider, books you download from the Professor Euler Library, optional Google sign-in and profile sync, and the Windows version check described above. Network-state access supports connection handling. While you complete Google sign-in in the browser, a short foreground service with a notification and a wake lock keep the app listening on this device for the sign-in to return. While music plays, a media-playback foreground service with its notification keeps it playing in the background. Files are opened and saved through the system file picker; the app does not request broad access to all your files, location, contacts, microphone or camera.
+Internet access supports direct requests to the selected AI provider, books you download from the Professor Euler Library, optional Google sign-in and profile sync, and the Windows version check described above. Network-state access supports connection handling. While you complete Google sign-in in the browser, a short foreground service with a notification and a wake lock keep the app listening on this device for the sign-in to return. When you switch on background playback for music, a media-playback foreground service with its notification keeps it playing in the background. Files are opened and saved through the system file picker; the app does not request broad access to all your files, location, contacts, microphone or camera.
 
 ## Changes and questions
 This policy will be updated if the app's data handling changes. For privacy questions, corrections or deletion of correspondence, email ai.professor.euler@gmail.com.

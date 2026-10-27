@@ -1,6 +1,6 @@
 # Privacy policy - Professor Euler
 
-Last updated: 26 October 2026
+Last updated: 27 October 2026
 
 ## Who provides the app
 Professor Euler is a free, non-commercial mathematics study app for adults aged 18 and older, created by David Schmid. Contact: ai.professor.euler@gmail.com. This policy describes the Android app and the Windows app. Google Play and services you choose to use have their own policies.
@@ -12,8 +12,9 @@ The Statistics tab works out study days, streaks, grades and progress through ea
 
 ## Music
 The Music section plays songs you import yourself. They are copied into the app's private storage on this device, with the
-playlists and the last playing position, and are kept for the whole device rather than a profile. They are never uploaded,
-never sent to the developer, and are not part of ZIP backups or Google Drive sync. Music plays while the app is on screen. Only
+playlists and the last playing position, and are kept for the whole device rather than a profile. They are never sent to the
+developer and are not part of ZIP backups. They go to Google Drive only if you turn on Sync recordings and music too (see
+Optional Google Drive sync below). Music plays while the app is on screen. Only
 if you turn on Keep music playing in the background (Settings > Reading & focus) does the app hold a media-playback foreground
 service while music plays, so it keeps playing when the screen is off or another app is open; Android then shows the song's
 title and artist in the media notification and on the lock screen. The original files you picked are not changed.
@@ -46,7 +47,7 @@ Get books downloads open-licensed books of the Professor Euler Library from its 
 ## Optional Google Drive sync
 Sync stays off until you turn on Sync this profile and sign in with Google. Professor Euler then asks Google only for access to a hidden app folder in your own Google Drive (`https://www.googleapis.com/auth/drive.appdata`) and for your email address, so the app can tell which Google account is connected. It does not request access to the rest of your Drive, Gmail, or Photos.
 
-The profile you choose to sync can place study files in that hidden folder: the frames, sheets, annotations, reading marks, checks and conversations of your books, study time, a few study preferences, and the PDFs you imported yourself. Those files use your Google account storage. Books of the Professor Euler Library are not uploaded: each device gets them from the app or the library. Recordings are never uploaded; their timestamps and notes are, and appear on another device once the same file is imported there. Canvas and LaTeX notes of your own are not synced. The developer does not receive these files. Drive's website does not list them as ordinary files. You open them again inside Professor Euler on a device where you sign in to the same Google account.
+The profile you choose to sync can place study files in that hidden folder: the frames, sheets, annotations, reading marks, checks and conversations of your books, study time, a few study preferences, and the PDFs you imported yourself. Those files use your Google account storage. Books of the Professor Euler Library are not uploaded: each device gets them from the app or the library. Recordings and music are uploaded only if you also turn on Sync recordings and music too (off by default): then the recordings' own video and audio files, your songs with their titles and artists, and your playlists are placed in the hidden folder as well, so another device signed in to the same Google account gets them; what is playing and where stays on each device. With that switch off, recordings are not uploaded; their timestamps and notes are, and appear on another device once the same file is imported there. Canvas and LaTeX notes of your own are not synced. The developer does not receive these files. Drive's website does not list them as ordinary files. You open them again inside Professor Euler on a device where you sign in to the same Google account.
 
 The newest saved copy of each study file is the one kept. API keys, the Google sign-in token, and device settings, including appearance, language, gestures, and calibration, stay on the device. They are not written into the hidden folder. Turning sync off does not remove the Google connection. Disconnect removes the saved sign-in from that device. Uninstalling the app does not delete the hidden folder. You can remove the app's access in your Google Account, and you can delete the hidden app data from Google Drive settings. Google's own policy and terms apply to your account and to files stored there: https://policies.google.com/privacy and https://policies.google.com/terms .
 
